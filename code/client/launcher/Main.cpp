@@ -495,9 +495,8 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 							else if (result == IDRETRY)
 							{
 								MessageBox(nullptr, elevationComplaint, L"FiveM", MB_OK | MB_ICONWARNING);
+								return 0;
 							}
-
-							return 0;
 						}
 					}
 
